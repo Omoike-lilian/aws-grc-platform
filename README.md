@@ -42,7 +42,7 @@ A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform**
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
 -  **Automated Compliance Monitoring** — Lambda checks compliance every hour via EventBridge
 -  **Real-time Alerting** — CloudWatch + SNS email alerts when compliance drops below 80%
