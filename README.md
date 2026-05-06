@@ -1,4 +1,4 @@
-# 🛡️ AWS Integrated GRC Platform
+#  AWS Integrated GRC Platform
 ### Governance • Risk • Compliance — Cloud-Native Automation on AWS
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=flat&logo=amazon-aws)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform** deployed on AWS using Infrastructure as Code. This capstone project demonstrates enterprise-grade compliance monitoring, risk management, and audit-ready infrastructure across six industry-standard frameworks — with zero manual intervention after deployment.
 
@@ -21,7 +21,7 @@ A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform**
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -44,18 +44,18 @@ A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform**
 
 ## ✅ Key Features
 
-- 🔄 **Automated Compliance Monitoring** — Lambda checks compliance every hour via EventBridge
-- 🚨 **Real-time Alerting** — CloudWatch + SNS email alerts when compliance drops below 80%
-- 📋 **6 Compliance Frameworks** — ISO 27001, NIST CSF, PCI DSS, HIPAA, GDPR, SOC 2
-- 🔐 **Enterprise Security** — KMS encryption, VPC isolation, IAM least privilege
-- 📊 **Risk Register** — 6 risks tracked with scores, owners, and mitigation strategies
-- 🏛️ **Audit Trail** — CloudTrail + AWS Config recording every change 24/7
-- 🧪 **Fully Tested** — 22/22 automated tests passing across 8 test classes
-- 💰 **Cost Efficient** — ~$500/year vs $280,000/year for manual GRC (93% savings)
+-  **Automated Compliance Monitoring** — Lambda checks compliance every hour via EventBridge
+-  **Real-time Alerting** — CloudWatch + SNS email alerts when compliance drops below 80%
+-  **6 Compliance Frameworks** — ISO 27001, NIST CSF, PCI DSS, HIPAA, GDPR, SOC 2
+-  **Enterprise Security** — KMS encryption, VPC isolation, IAM least privilege
+-  **Risk Register** — 6 risks tracked with scores, owners, and mitigation strategies
+-  **Audit Trail** — CloudTrail + AWS Config recording every change 24/7
+-  **Fully Tested** — 22/22 automated tests passing across 8 test classes
+-  **Cost Efficient** — ~$500/year vs $280,000/year for manual GRC (93% savings)
 
 ---
 
-## 🛠️ AWS Services Used
+##  AWS Services Used
 
 | Service | Purpose |
 |---|---|
@@ -75,7 +75,7 @@ A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform**
 
 ---
 
-## 📋 Compliance Frameworks
+##  Compliance Frameworks
 
 | Framework | Version | Controls | Compliance % |
 |---|---|---|---|
@@ -89,7 +89,7 @@ A **fully automated, cloud-native GRC (Governance, Risk & Compliance) platform**
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 GRC208-AWS-Capstone-Project/
@@ -112,7 +112,7 @@ GRC208-AWS-Capstone-Project/
 
 ---
 
-## 🚀 Deployment Guide
+##  Deployment Guide
 
 ### Prerequisites
 - AWS Account with appropriate permissions
@@ -166,7 +166,7 @@ python3 test_cases.py
 
 ---
 
-## 🧪 Test Results
+##  Test Results
 
 ```
 Ran 22 tests in 0.001s — OK
@@ -183,7 +183,7 @@ Ran 22 tests in 0.001s — OK
 
 ---
 
-## ⚠️ Challenges & Solutions
+##  Challenges & Solutions
 
 | Challenge | Solution |
 |---|---|
@@ -199,7 +199,7 @@ Ran 22 tests in 0.001s — OK
 
 ---
 
-## 💡 Lessons Learned
+##  Lessons Learned
 
 - **Infrastructure as Code requires precision** — one misplaced space breaks deployments
 - **Always validate templates** before deployment using `aws cloudformation validate-template`
@@ -211,7 +211,7 @@ Ran 22 tests in 0.001s — OK
 
 ---
 
-## 💰 Economic Impact
+##  Economic Impact
 
 | Approach | Annual Cost | Notes |
 |---|---|---|
@@ -221,7 +221,7 @@ Ran 22 tests in 0.001s — OK
 
 ---
 
-## 🗺️ Future Roadmap
+##  Future Roadmap
 
 - [ ] ECS Fargate containerized web application
 - [ ] API Gateway REST endpoints
@@ -232,7 +232,7 @@ Ran 22 tests in 0.001s — OK
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Lilian Omoike**
 GRC208 — AWS Cloud Infrastructure Capstone Project
@@ -242,7 +242,7 @@ GRC208 — AWS Cloud Infrastructure Capstone Project
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
